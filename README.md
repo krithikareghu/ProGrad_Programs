@@ -1,2 +1,2 @@
 # PROGRAD_Training
-#All the assignments in the training
+#Assignments in the training
