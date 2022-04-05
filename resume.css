@@ -1,0 +1,54 @@
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: auto;
+    position: relative;
+    table-layout: auto;
+}
+
+th,td {
+    padding: 5px;
+    text-align: left;
+}
+h4{
+    background-color:rgba(184, 174, 174, 0.598);
+    padding: 3px;
+}
+
+address {
+    position:absolute;
+    text-align: right;
+    top: 120px;
+    right: 250px;
+    
+}
+
+figure {
+    float: right;
+    position: absolute;
+    margin-right: auto;
+    margin-top: auto; 
+    object-position: 50%; 
+    top: 105px;
+    right: 100px;
+}
+#cgpa{
+    font-size: small;
+}
+
+body {
+    border-left: 50 px;
+    border: thin solid black;
+    border-style: ridge;
+    padding: 40px;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+#intro{
+    text-align: left;
+    display: flex;
+}
