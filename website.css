@@ -1,0 +1,151 @@
+.coursecontainer {
+    background-color: rgb(66, 65, 65);
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.coursecontainer h1{
+    margin: 4px;
+}
+
+.courseswrapper {
+    background-color:  rgb(66, 65, 65);
+    padding: 15px;
+}
+
+.listofcourses {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: white;
+    font-family: Roboto-Regular, sans-serif;
+    padding-left: 10px;
+}
+
+li {
+    text-align: left;
+    width: 400px;
+    height: 60px;
+    display: inline-block;
+    border-bottom: 1px dashed rgb(146, 146, 146);
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+@media screen and(min-width:300px)
+{
+    li{
+    text-align: left;
+    width: 400px;
+    height: 60px;
+    padding-left: 0px;
+    border-bottom: 1px dashed rgb(146, 146, 146);
+    text-transform: uppercase;
+    display: block;
+    }
+    .coursecontainer{
+        padding: 0px;
+    }
+
+}
+.images {
+    position: relative;
+    width: 14040px;
+    animation-name: slideranimation;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    cursor: pointer;
+}
+
+@keyframes slideranimation {
+    0% {
+        left: 0px;
+    }
+
+    5% {
+        left: 0px;
+    }
+
+    10% {
+        left: -1404px;
+    }
+
+    15% {
+        left: -1404px;
+    }
+
+    20% {
+        left: -2808px
+    }
+
+    25% {
+        left: -2808px
+    }
+
+    30% {
+        left: -4212px;
+    }
+
+    35% {
+        left: -4212px;
+    }
+
+    40% {
+        left: -5616px;
+    }
+
+    45% {
+        left: -5616px;
+    }
+
+    50% {
+        left: -7020px;
+    }
+
+    55% {
+        left: -7020px;
+    }
+
+    60% {
+        left: -8424px;
+    }
+
+    65% {
+        left: -8424px;
+    }
+
+    70% {
+        left: -9828px;
+    }
+
+    75% {
+        left: -9828px;
+    }
+
+    80% {
+        left: -11232px;
+    }
+
+    85% {
+        left: -11232px;
+    }
+
+    90% {
+        left: -12636px;
+    }
+
+    95% {
+        left: -12636px;
+    }
+}
+
+.sliderframe {
+    overflow: hidden;
+}
+
+img {
+    width: 1400px;
+    vertical-align: middle;
+}
