@@ -1,0 +1,15 @@
+import spacy
+import re
+import glob
+nlp = spacy.load("en_core_web_sm")
+path="/content/big.txt"
+for file in glob.glob(path):
+    with open(file, encoding='utf-8', errors='ignore') as file_in:
+        text = file_in.read()
+        words_pattern = '[a-zA-Z]+'
+        lines = re.findall(words_pattern, text, flags=re.IGNORECASE)
+        for line in lines:
+            line = nlp(line)
+            for token in line:
+              if spacy.explain(token.pos_)=='noun' or spacy.explain(token.pos_)=='adverb':
+                  print(token,":",spacy.explain(token.pos_))
